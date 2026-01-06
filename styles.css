@@ -26,9 +26,51 @@
 
 .my-design {
   /* ✏️ Delete this sample and add your design rules here */
+  background-color: rgb(25, 48, 122);
+
   h1 {
-    color: rgb(202, 231, 255);
-    font-size: 88px;
+    color: rgb(168, 196, 255);
+    font-size: 48px;
+    text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
+}
+.google-chrome{
+color:rgb(168, 196, 255);
+font-size: 15px;
+text-align: center;
+border: 2px solid rgb(255, 91, 91);
+border-width: 5px;
+border-radius: 20px;
+margin-right: 55%;
+}
+.google-chrome img{
+  width: 100px;
+  height: 110px;
+  margin-left: auto;
+}
+.school-account{
+  color:rgb(168, 196, 255);
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid rgb(255, 91, 91);
+  border-width: 5px;
+  border-radius: 20px;
+  margin-left: 55%;
+  margin-top:-30.8%;
+}
+.school-account img{
+ padding: 2px;
+  width: 240px;
+  height: 200px;
+  margin-left: auto;
+}
+.print-issues{
+  color:rgb(168, 196, 255);
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid rgb(255, 91, 91);
+  border-width: 5px;
+  border-radius: 20px;
+  margin-right: 55%;
 }
