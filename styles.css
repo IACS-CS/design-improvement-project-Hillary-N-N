@@ -33,9 +33,12 @@
   h1 {
     color: rgb(200, 220, 255);
     text-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-size: 48px;
+    font-size: 45px;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top:3%;
+    margin-bottom:7%;
+
   }
 }
 
@@ -44,71 +47,92 @@
   grid-template-areas:
     "google-chrome school-account school-account"
     "print-issues print-issues right-printer";
+}
+.bricks div{
+  border: 8px solid rgb(255, 91, 91);
+   min-height: 200px;
+    margin-top: -25px;
+}
+.google-chrome{
+  grid-area:google-chrome;
+  margin-bottom:30px;
+}
+.school-account{
+  grid-area:school-account;
+  margin-bottom:30px;
+}
+.print-issues{
+  grid-area:print-issues;
+  height:250px;
+}
+.right-printer{
+  grid-area:right-printer;
+  height:250px;
+}
 .google-chrome {
   color: rgb(168, 196, 255);
-  font-size: 15px;
+  font-size: 20px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding:5px;
   text-align: center;
-  border: 2px solid rgb(255, 91, 91);
-  border-width: 5px;
-  border-radius: 20px;
-  margin-right: 53%;
-  margin-bottom:0px;
+  border: 5px solid rgb(255, 91, 91);
+  border-radius:20px;
+  margin-right:5px;
 }
 .google-chrome img {
   width: 200px;
   height: 200px;
   margin-left: auto;
-  padding:5px;
+  padding:2px;
 }
 .school-account {
   color: rgb(168, 196, 255);
-  font-size: 15px;
+  font-size: 20px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding:5px;
   text-align: center;
-  border: 2px solid rgb(255, 91, 91);
-  border-width: 5px;
-  border-radius: 20px;
-  margin-left: 53%;
-  margin-bottom:2%;
-  margin-top:-18%;
+  border: 5px solid rgb(255, 91, 91); border-radius:20px;
+  margin-left:5px;
 }
 .school-account img {
   padding: 2px;
-  width: 290px;
+  width: 300px;
   height: 200px;
   margin-left: auto;
 }
 .print-issues {
   color: rgb(168, 196, 255);
-  font-size: 15px;
+  font-size: 20px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding:5px;
   text-align: center;
-  border: 2px solid rgb(255, 91, 91);
-  border-width: 5px;
-  border-radius: 20px;
-  margin-right: 49%;
-  margin-top: -10%;
+  border: 5px solid rgb(255, 91, 91); 
+  border-radius:20px;
+  margin-right:5px;
 }
 .print-issues img {
   padding: 2px;
-  width: 270px;
+  width: 500px;
   height: 150px;
   margin-left: auto;
 }
 .right-printer {
   color: rgb(168, 196, 255);
-  font-size: 15px;
+  font-size: 20px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding:5px;
   text-align: center;
-  border: 2px solid rgb(255, 91, 91);
-  border-width: 5px;
-  border-radius: 20px;
-  margin-left: 55%;
-  margin-top: -13%;
+  border: 5px solid rgb(255, 91, 91);
+   border-radius:20px;
+  margin-left:5px;
 }
 
 li {
   list-style-type: none;
   text-align: center;
-  display: inline-block;
+  display:flex;
+  justify-content: center;
   margin-right:45px;
-  margin-top:5px;
-  font-size:15px;
+  margin-top:15px;
+  font-size:20px;
 }
